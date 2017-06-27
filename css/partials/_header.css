@@ -1,0 +1,28 @@
+.header {
+  margin: 0 auto 20px auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  @media (max-width: 768px) {
+    .header {
+      display: block; } }
+
+.head-logo {
+  margin: 40px 0 20px 0;
+  line-height: 1.5; }
+  @media (max-width: 768px) {
+    .head-logo {
+      display: block;
+      margin: 20px auto; }
+      .head-logo img {
+        display: block;
+        margin: auto; } }
+
+.info > i {
+  margin-left: 10px; }
